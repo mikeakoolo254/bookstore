@@ -1,0 +1,16 @@
+{
+  "resourceName": "Book1",
+  "policyUUID": "27868c5b",
+  "bucketName": "awsbookstore6eed6330c46b44b98f36b0c75f52289d",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "awsbookstore",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/home/mike254/Desktop/bookstore/amplify/backend/api/awsbookstore/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authawsbookstore268120d2"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 365,
+        "apiKeyExpirationDate": "2023-06-23T01:10:39.280Z",
+        "keyDescription": "Guest user access to books"
+      }
+    ]
+  }
+}
