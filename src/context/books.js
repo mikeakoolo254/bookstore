@@ -44,6 +44,7 @@ const BookProvider = ({ children }) => {
       setFeatured(featured);
       setLoading(false);
     } catch (err) {
+      
       console.log(err);
     }
   };

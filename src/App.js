@@ -25,14 +25,16 @@ Amplify.configure(awsExports);
 const App = () => {
   return (
     <BrowserRouter>
+      <Header/>
       <Routes>
-        <Route path="/" element={<Header />}>
-          <Route index element={<Home />} />
+      <Route>
+        <Route path="/" element={<Home />} />
+          
           <Route path="cart" element={<Cart />} />
           <Route path="checkout" element={<Checkout />} />
-          <Route exact path="books" element={<Books />} />
-          <Route path="/books/:id" children={<BookDetails></BookDetails>} />
-          <Route path="/admin" element={<Admin />} />
+          <Route path="books" element={<Books />} />
+          <Route path="books/:id" element={<BookDetails/>} />
+          <Route path="admin" element={<Admin />} />
           <Route path="*" element={ <Error/>}/>
           
 
