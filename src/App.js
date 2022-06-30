@@ -18,6 +18,7 @@ import Header from "./components/Header"
 
 // Amplify Configurations
 import awsExports from "./aws-exports";
+
 Amplify.configure(awsExports);
 
 
