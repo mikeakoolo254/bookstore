@@ -38,7 +38,7 @@ const Cart = () => {
         <h3>Total: $ {total}</h3>
       </div>
       <div>
-        <button className="btn" onClick={() => navigate.push("/checkout")}>Checkout</button>
+        <button className="btn" onClick={() => navigate("/checkout")}>Checkout</button>
       </div>
     </section>
   );

@@ -32,7 +32,7 @@ const BookDetails = () => {
           className="btn"
           onClick={() => {
             addToCart({ ...book, id });
-            navigate.push("/cart");
+            navigate("/cart");
           }}
         >
           Add to Cart
