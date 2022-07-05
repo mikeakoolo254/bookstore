@@ -26,6 +26,8 @@ const Admin = () => {
         } catch (err) {
             console.log('error creating todo:', err)
         }
+      setImage('')
+      e.target.reset()
     }
 
     const handleImageUpload = async (e) => {
