@@ -14,12 +14,12 @@ const Books = () => {
         
         <section className="books">
             
-            {books.map(({ image: image, id, title }) => (
+            {books.map(({  image, id, title }) => (
                 <article key={id} className="book">
                     <div className="book-image">
                         <img src={image} alt={title} />
                     </div>
-                    <Link to={`books/${id}`} className="btn book-link">details</Link>
+                    <Link to={`/books/${id}`} className="btn book-link">details</Link>
                 </article>
             ))}
         </section>
